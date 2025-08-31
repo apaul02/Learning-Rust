@@ -6,9 +6,11 @@ fn main() {
     scores.entry(String::from("Yellow")).or_insert(50);
     scores.entry(String::from("Blue")).or_insert(50);
     scores.entry(String::from("Red")).or_insert(50);
+    scores.entry(String::from("Green")).or_insert(20);
 
     for (k, v) in scores {
         println!("Key {k}: value {v}")
     }
-    
 }
+
+
