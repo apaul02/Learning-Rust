@@ -20,5 +20,8 @@ fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
 struct ImportantExcerpt<'a> {
     part: &'a str,
 }
+fn say_hello() {
+    println!("Hello world!");
+}
 
 
